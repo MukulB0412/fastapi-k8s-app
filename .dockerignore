@@ -1,0 +1,27 @@
+# Ignore Python cache and virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+ENV/
+
+# Ignore Git
+.git
+.gitignore
+
+# Ignore Docker-related files not needed inside image
+.dockerignore
+Dockerfile
+
+# Ignore IDE/editor files
+*.swp
+*.swo
+*.idea/
+.vscode/
+
+# Ignore test artifacts and logs
+*.log
+coverage/
+
